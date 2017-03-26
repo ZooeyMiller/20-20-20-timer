@@ -1,0 +1,30 @@
+{
+  "name": "20-20-20-timer",
+  "version": "1.0.0",
+  "description": "A command line 20-20-20 timer for FAC students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZooeyMiller/20-20-20-timer.git"
+  },
+  "keywords": [
+    "timer",
+    "20-20-20"
+  ],
+  "author": "Zooey Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZooeyMiller/20-20-20-timer/issues"
+  },
+  "homepage": "https://github.com/ZooeyMiller/20-20-20-timer#readme",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
