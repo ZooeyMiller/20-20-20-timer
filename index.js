@@ -33,7 +33,7 @@ function checkTime() {
       closeLabel: 'Close',
     });
     clearInterval(timer);
-  } else if (newTime >= startTime + 240000 /* 120000*/ && !timer2) {
+  } else if (newTime >= startTime + 2400000 /* 120000*/ && !timer2) {
     notifier.notify({
       title: 'Go ask a mentor!',
       message: 'Another 20 minutes has passed, time to ask a mentor.',
