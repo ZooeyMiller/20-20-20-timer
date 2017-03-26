@@ -16,6 +16,10 @@
   ],
   "author": "Zooey Miller",
   "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "twenty": "index.js"
+  },
   "bugs": {
     "url": "https://github.com/ZooeyMiller/20-20-20-timer/issues"
   },
