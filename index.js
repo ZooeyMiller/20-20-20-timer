@@ -24,7 +24,7 @@ let timer2 = false;
 function checkTime() {
   const newTime = Date.now();
 
-  if (newTime >= startTime + 360000 /* 180000*/) {
+  if (newTime >= startTime + 3600000) {
     notifier.notify({
       title: '20/20/20 over',
       message: 'The full hour has passed, I hope you solved your problem!',
@@ -33,7 +33,7 @@ function checkTime() {
       closeLabel: 'Close',
     });
     clearInterval(timer);
-  } else if (newTime >= startTime + 240000 /* 120000*/ && !timer2) {
+  } else if (newTime >= startTime + 2400000 && !timer2) {
     notifier.notify({
       title: 'Go ask a mentor!',
       message: 'Another 20 minutes has passed, time to ask a mentor.',
@@ -42,7 +42,7 @@ function checkTime() {
       closeLabel: 'Close',
     });
     timer2 = true;
-  } else if (newTime >= startTime + 120000 /* 60000*/ && !timer1) {
+  } else if (newTime >= startTime + 1200000 && !timer1) {
     notifier.notify({
       title: '20 minutes is up!',
       message: 'Ask someone in your cohort for help.',
