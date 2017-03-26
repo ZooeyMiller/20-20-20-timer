@@ -7,3 +7,11 @@ A command line app written in node.js, which will give desktop notifications at 
 ## How?
 
 I really don't know yet.
+
+## Basic plan
+
+* run a terminal command, something like "twenty --start" -> Get a desktop notification saying "timer started, good luck"
+* After 20 minutes pass get a desktop notification saying "your twenty minutes is up! ask a cohort member"
+* after another 20 minutes get a desktop notification saying "another twenty minutes is up! ask a mentor"
+* after the final 20 minutes is up get a desktop notification saying "the whole of the 20/20/20 is up, the timer has been reset. Hoep you found a solution!"
+* run "twenty --stop" to stop, get a notification saying "problem solved! good job"
